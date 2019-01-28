@@ -9,3 +9,5 @@ def my_find(collection)
   i += 1
   end
 end
+
+my_find(collection){|i| i % 3 == 0 && i % 5 == 0}
