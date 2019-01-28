@@ -10,4 +10,3 @@ def my_find(collection)
   end
 end
 
-my_find(collection){|i| i % 3 == 0 && i % 5 == 0}
